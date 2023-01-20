@@ -9,15 +9,37 @@
     font-family: 'Acme', sans-serif
 }
 
+div, p {
+    margin: 2em;
+    width: 50%;
+    padding: 1em;
+    border: 5px dashed lightsteelblue;
+}
+
+section {
+    margin: 2em;
+    width: 50%;
+    border: 5px solid green;
+}
+
 #exOne {
-    margin: auto;
+    margin: 2em;
     width: 50%;
     border: 5px solid black;
 }
 
-div, p {
-    margin: auto;
+#exTwo {
+    margin: 2em;
     width: 50%;
-    padding: 1em;
-    border: 5px dashed lightsteelblue;
+    border: 5px solid tomato;
+}
+
+#exTwo section {
+    margin: 2em;
+    width: 50%;
+    border: 5px solid purple;
+}
+
+#exOne p:first-child {
+    border: 5px solid orange;
 }
