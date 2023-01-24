@@ -16,15 +16,14 @@ div, p {
   border: 5px dashed lightsteelblue;
 }
 
-section {
-  margin: 2em;
+div#exTwo .sect2 {
+  margin: auto;
   width: 50%;
   border: 5px solid green;
 }
 
 #exOne {
   margin: 2em;
-  width: 50%;
   border: 5px solid black;
 }
 
@@ -34,12 +33,37 @@ section {
   border: 5px solid tomato;
 }
 
-#exTwo section {
-  margin: 2em;
-  width: 50%;
-  border: 5px solid purple;
-}
-
 #exOne p:first-child {
   border: 5px solid orange;
+}
+
+#exOne h1 {
+  color: purple;
+}
+
+div#exThree .static p {
+  position: static;
+  border: 5px solid red;
+}
+
+div#exThree .relative p {
+  position: relative;
+  left: 5%;
+  border: 5px solid blue;
+}
+
+div#exThree .fixed p {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  border: 5px solid yellow;
+}
+
+div#exThree .absolute p {
+  position: absolute;
+  width: 10%;
+  height: 10%;
+  right: 10%;
+  bottom: 1;
+  border: 5px solid yellowgreen;
 }/*# sourceMappingURL=syle.css.map */
