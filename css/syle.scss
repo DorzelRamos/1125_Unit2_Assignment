@@ -70,5 +70,43 @@ div#exThree .absolute p {
     right: 10%;
     bottom: 1;
     border: 5px solid yellowgreen;
+    //having difficulty moving where I want it but its close enough
 }
 
+div#exFour {
+    background-color: darkolivegreen;
+    font-size: large;
+    width: 50%;
+    height: 50vh;
+    margin: 5px;
+    img {
+        width: 10em;
+        float: right;
+    }
+}
+div#Four {
+    background-color: darkolivegreen;
+    font-size: large;
+    width: 50%;
+    height: 50vh;
+    margin: 5px;
+    img {
+        width: 10em;
+        float: right;
+    }
+}
+
+.sectF {
+    content: "aaa";
+    overflow: auto;
+    clear: right;
+    //this is difficult to demonstrate, I can't tell if it worked?
+}
+
+
+#exFive .cog {
+    width: 4em;
+    height: 4em;
+    fill:black;
+    color: maroon;
+}

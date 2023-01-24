@@ -66,4 +66,41 @@ div#exThree .absolute p {
   right: 10%;
   bottom: 1;
   border: 5px solid yellowgreen;
+}
+
+div#exFour {
+  background-color: darkolivegreen;
+  font-size: large;
+  width: 50%;
+  height: 50vh;
+  margin: 5px;
+}
+div#exFour img {
+  width: 10em;
+  float: right;
+}
+
+div#Four {
+  background-color: darkolivegreen;
+  font-size: large;
+  width: 50%;
+  height: 50vh;
+  margin: 5px;
+}
+div#Four img {
+  width: 10em;
+  float: right;
+}
+
+.sectF {
+  content: "aaa";
+  overflow: auto;
+  clear: right;
+}
+
+#exFive .cog {
+  width: 4em;
+  height: 4em;
+  fill: black;
+  color: maroon;
 }/*# sourceMappingURL=syle.css.map */
