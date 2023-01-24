@@ -103,4 +103,14 @@ div#Four img {
   height: 4em;
   fill: black;
   color: maroon;
+}
+
+.cent:link {
+  color: orangered;
+  cursor: -webkit-grab;
+  cursor: grab;
+}
+
+.sect6 {
+  text-align: right;
 }/*# sourceMappingURL=syle.css.map */
